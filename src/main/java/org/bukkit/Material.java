@@ -777,6 +777,7 @@ public enum Material {
             case ACACIA_STAIRS:
             case DARK_OAK_STAIRS:
             case PACKED_ICE:
+            case MOB_SPAWNER:    
                 return true;
             default:
                 return false;
@@ -970,7 +971,6 @@ public enum Material {
             case BOOKSHELF:
             case MOSSY_COBBLESTONE:
             case OBSIDIAN:
-            case MOB_SPAWNER:
             case DIAMOND_ORE:
             case DIAMOND_BLOCK:
             case WORKBENCH:
