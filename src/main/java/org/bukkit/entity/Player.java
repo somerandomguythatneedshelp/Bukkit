@@ -1035,4 +1035,9 @@ public interface Player extends HumanEntity, Conversable, CommandSender, Offline
      * @see Player#setHealthScaled(boolean)
      */
     public double getHealthScale();
+
+    public void sendTranslated(String msg) {
+      if (msg.startsWith("%%red%%"))
+         replace(%%red%%, \" + ChatColor.RED + \");
+   } // I still have to do all the other colours chatcolor provides 
 }
